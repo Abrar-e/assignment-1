@@ -1,1 +1,112 @@
-/* shared styles */
+  /* body{ */
+  font-family: "Open Sans", serif; 
+  margin: 0px 160px;
+}/* shared styles */
+.dark{
+    color: rgba(14, 14, 14, 1);
+}
+h1,h2,h5,p{
+   margin: 0px;
+}
+/* main styles */
+/* header styles */
+.open-sans{
+   margin: 0px 160px;
+}
+nav{
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+    
+ }
+ .nav-btn{
+    width: 116px;
+    height: 52px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 106, 80);
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+ }
+ .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 40px 60px;
+    width: 100%;
+    height: 560px;
+    border-radius: 24px;
+    background-color: rgb(198, 228, 214);
+ }
+ .header-title{
+    font-size: 56px;
+    font-weight: bold;
+     
+ }
+ .header-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+     color: rgba(14, 14, 14, 0.5);
+     margin-bottom: 16px;
+ }
+.header-img{
+   width: 475px;
+   height: 400px;
+}
+.header-btn{
+   width: 270px;
+   height: 56px;
+   border: none;
+   border-radius: 8px;
+   background: rgb(0, 106, 80);
+   color: rgb(255, 255, 255);
+   font-size: 14px;
+   font-weight: 500;
+   padding: 17px 34px;
+   margin-top: 24px;
+ }
+ 
+ /* main styles */
+ .cards{
+   margin: 80px 160px;
+ }
+ .cards-title{
+   font-size: 40px;
+   font-weight: bold;
+   color: rgba(14, 14, 14, 1.00);
+   margin-bottom: 32px;
+ }
+ .card{
+   display: flex;
+   gap: 24px;
+ }
+ .card-container{
+   padding: 24px;
+   color: rgba(255, 255, 255, 1);
+   border-radius: 16px;
+   border: 1px solid rgba(14, 14, 14, 0.15);
+ }
+ .card-title{
+   color: rgba(14, 14, 14, 0.8);
+   font-size: 20px;
+   font-weight: 700;
+   text-align: left;
+   margin-top: 25px;
+   margin-bottom: 12px;
+ }
+ .card-description{
+   color: rgba(14, 14, 14, 0.7);
+   font-size: 16px;
+   font-weight: 400;
+   text-align: left;
+ }
+ .card-img{
+   width: 62px;
+   height: 62px;
+ }
