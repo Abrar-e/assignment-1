@@ -184,7 +184,7 @@ border-radius: 8px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 32px;
-    border: 1px solid black;
+    
    }
    .qs{
     display: flex;
@@ -192,4 +192,29 @@ border-radius: 8px;
     padding: 5px 15px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(198, 228, 214);
+    }
+    .opinion-box{
+      display: flex;
+     }
+    .qs-description{
+         color: rgb(14, 14, 14);
+      font-size: 16px;
+      font-weight: 600;
+      text-align: left;
+    }
+    .qs-box{
+     border: 1px solid rgba(14, 14, 14, 0.15);
+     background: rgba(255, 255, 255, 0.1);
+     padding: 24px 36px;
+    }
+    .select-box{
+      padding: 24px;
+      border: 1px solid rgba(14, 14, 14, 0.15);
+      background: rgba(255, 255, 255, 0.1);
+    }
+    select{
+     border: 1px solid rgb(14, 14, 14);
+     border-radius: 4px;
+     background: rgb(198, 228, 214);
+     padding: 10px 14px;
     }
