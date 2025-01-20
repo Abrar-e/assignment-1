@@ -80,7 +80,7 @@ border-radius: 8px;
    font-size: 40px;
    font-weight: bold;
    color: rgba(14, 14, 14, 1.00);
-   margin-bottom: 32px;
+   margin-bottom: 30px;
  }
  .card{
    display: flex;
@@ -110,3 +110,86 @@ border-radius: 8px;
    width: 62px;
    height: 62px;
  }
+
+ .card-box{
+  margin: 0px 160px;
+ }
+ .card-box-container{
+  margin-top: 32px;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  padding: 32px;
+  }
+ .card-box-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+ }
+ .card-box-btn-2{
+  border-radius: 8px;
+  border: none;
+  background: rgb(9, 161, 92);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 13px;
+  margin-top: 24px;
+  }
+
+  .card-box-btn-1{
+    border-radius: 8px;
+    border: none;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 13px;
+    margin-top: 48px;
+  }
+  .card-box-btn-3{
+    border-radius: 8px;
+     background: rgb(255, 194, 57);
+    border: none;
+     color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 13px;
+    margin-top: 48px;
+  }
+  .younus{
+    margin-top: 32px;
+    padding: 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image:url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    }
+   .y-title{
+    margin-top: 12px;
+   }
+
+
+   .opinion{
+    margin: 80px 160px;
+   }
+   .opinion-container{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+    border: 1px solid black;
+   }
+   .qs{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    }
