@@ -1,9 +1,5 @@
-
- /* shared styles */
-header{
-    margin: 0px 160px;
-}
-.dark{
+  /* shared styles */
+ .dark{
     color: rgba(14, 14, 14, 1);
 }
 h1,h2,h5,p{
@@ -16,8 +12,10 @@ div button:hover{
 
 
 
-/* main styles */
-/* header styles */
+ /* header styles */
+header{
+  margin: 0px 160px;
+}
  nav{
     display: flex;
      align-items: center;
@@ -55,8 +53,7 @@ border-radius: 8px;
  .header-title{
     font-size: 56px;
     font-weight: bold;
-     
- }
+  }
  .header-subtitle{
     font-size: 24px;
     font-weight: 500;
@@ -80,6 +77,8 @@ border-radius: 8px;
    margin-top: 24px;
  }
  
+
+
  /* main styles */
  .cards{
    margin: 80px 160px;
@@ -190,8 +189,7 @@ border-radius: 8px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255); 
-  
-     }
+      }
     .parent{
       background-image:url("../assets/quote-bg.png");
       background-repeat: no-repeat; 
@@ -199,9 +197,7 @@ border-radius: 8px;
    .y-title{
     margin-top: 12px;
    }
-
-
-   .opinion{
+    .opinion{
     margin: 80px 160px;
    }
    .opinion-container{
@@ -209,8 +205,7 @@ border-radius: 8px;
     background: rgb(255, 255, 255);
     padding: 32px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    
-   }
+    }
    .qs{
      display: flex;
     justify-content: space-between;
@@ -287,8 +282,7 @@ border-radius: 8px;
       text-align: center;
       margin-top: 32px;
     }
-
-    .donate{
+     .donate{
       margin: 80px 160px;
       }
     .donate-title{
@@ -374,8 +368,7 @@ border-radius: 8px;
     font-size: 15px;
     font-weight: 500;
     text-align: center;
-    /* margin-top: 32px; */
-   }
+    }
    .subscribe-input{
     border-radius: 8px 0px 0px 8px;
     border: none;
@@ -389,6 +382,7 @@ border-radius: 8px;
     height: 19px;
      }
 
+     /* footer style */
 
      .Bangladesh{
       margin: 80px 0px;
