@@ -9,12 +9,16 @@ header{
 h1,h2,h5,p{
    margin: 0px;
 }
+div button:hover{
+  background-color: aquamarine;
+  color: black;
+ }
+
+
+
 /* main styles */
 /* header styles */
-nav{
-   /* margin: 0px 160px; */
-}
-nav{
+ nav{
     display: flex;
      align-items: center;
     justify-content: space-between;
@@ -25,6 +29,10 @@ nav{
     font-weight: bold;
     
  }
+nav  button:hover{
+  background-color: aquamarine;
+  color: black;
+}
  .nav-btn{
     width: 116px;
     height: 52px;
@@ -181,13 +189,13 @@ border-radius: 8px;
     padding: 48px 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255); 
+  
      }
     .parent{
       background-image:url("../assets/quote-bg.png");
-      background-repeat: no-repeat;
-      height: max-content;
-    }
+      background-repeat: no-repeat; 
+     }
    .y-title{
     margin-top: 12px;
    }
@@ -301,6 +309,9 @@ border-radius: 8px;
   justify-content: space-around;
    margin-top: 24px;
  }
+ .paisa:hover{
+  background: rgba(84, 144, 245, 0.2);
+ }
 .paisa{
    border: 1px solid rgba(14, 14, 14, 0.15);
    border-radius: 16px;
@@ -350,29 +361,32 @@ border-radius: 8px;
    .suscribe-div{
     display: flex; 
       justify-content: center;
-     margin-top: 24px;
+     margin: 25px 0px;
    }
    .subscribe-btn{
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
-    padding: 13px 26px;
-    height: 48px;
+    padding: 13px 40px;
+    height: 45px;
     width: 139px;
     border: none;
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 500;
     text-align: center;
-    margin-top: 32px;
+    /* margin-top: 32px; */
    }
    .subscribe-input{
     border-radius: 8px 0px 0px 8px;
+    border: none;
     background: rgb(255, 255, 255); 
     padding: 13px 40px;
     color: rgba(14, 14, 14, 0.3);
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+    width: 500px;
+    height: 19px;
      }
 
 
@@ -380,12 +394,16 @@ border-radius: 8px;
       margin: 80px 0px;
       padding: 50px 160px;
       background: rgb(255, 255, 255);
+       justify-items: center;
      }
      .footer-img{
       display: flex;
-      justify-content: center;
       align-items: center;
-      gap: 20px;
+       gap: 20px;
       width: 26px;
       height: 26px;
+      margin-top: 64px;
      }
+
+
+     
